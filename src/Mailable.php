@@ -74,11 +74,11 @@ abstract class Mailable
         return $this;
     }
 
-    /** Render an Ember view as the HTML body. */
+    /** Render an Spark view as the HTML body. */
     public function view(string $emberView, array $data = []): static
     {
         if (isset($GLOBALS['__flint_app'])) {
-            $engine = $GLOBALS['__flint_app']->make(\Flint\View\EmberEngine::class);
+            $engine = $GLOBALS['__flint_app']->make(\Flint\View\SparkEngine::class);
             $this->htmlBody = $engine->render($emberView, $data);
         }
         return $this;
