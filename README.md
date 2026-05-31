@@ -78,7 +78,7 @@ $this->to('user@example.com', 'User')         // recipient
      ->bcc('audit@example.com')
      ->html('<p>Hello <b>world</b></p>')       // raw HTML body
      ->text('Hello world')                     // plain text fallback
-     ->view('emails.welcome', ['user' => $u]) // Ember template as HTML
+     ->view('emails.welcome', ['user' => $u]) // Spark template as HTML
      ->attach('/path/to/file.pdf', 'Invoice.pdf', 'application/pdf');
 ```
 
@@ -231,9 +231,9 @@ return [
 
 ## Email Templates
 
-Email HTML bodies can be written as [Ember](https://github.com/Vancil/flint) templates:
+Email HTML bodies can be written as [Spark](https://github.com/Vancil/flint) templates:
 
-`resources/views/emails/welcome.ember`:
+`resources/views/emails/welcome.spark.php`:
 ```html
 <!DOCTYPE html>
 <html>
