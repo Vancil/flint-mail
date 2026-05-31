@@ -4,7 +4,7 @@
   <a href="https://github.com/Vancil/flint-mail/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/Vancil/flint-mail/ci.yml?label=tests" alt="Tests"></a>
   <a href="https://packagist.org/packages/vancil/flint-mail"><img src="https://img.shields.io/packagist/dt/vancil/flint-mail" alt="Total Downloads"></a>
   <a href="https://packagist.org/packages/vancil/flint-mail"><img src="https://img.shields.io/packagist/v/vancil/flint-mail" alt="Latest Version on Packagist"></a>
-  <a href="https://packagist.org/packages/vancil/flint-mail"><img src="https://img.shields.io/packagist/l/vancil/flint-mail" alt="License"></a>
+  <a href="https://github.com/Vancil/flint-mail/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="License"></a>
 </p>
 
 Full-featured mail package for the [Flint framework](https://github.com/Vancil/flint). Mailable classes, async queueing, CC/BCC/attachments, and six sending drivers — all with zero new dependencies beyond Flint itself.
